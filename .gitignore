@@ -1,0 +1,12 @@
+target/
+tools/
+.mimosa/
+.gradle/
+run/
+out/
+/*.jar
+*.iml
+.idea/
+.classpath
+.project
+.settings/

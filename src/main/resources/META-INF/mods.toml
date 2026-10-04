@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="securechannelclient"
+version="1.0.4"
+displayName="SecureChannel Client"
+authors="Lcxws"
+description='''
+SecureChannel 配套客户端。
+对带有 SecureChannel 标记的加密信道服务器跳过 Mojang 会话验证，
+使离线玩家也能完成加密握手。对其他服务器的行为无任何影响。
+'''
+
+[[dependencies.securechannelclient]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.securechannelclient]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="CLIENT"
